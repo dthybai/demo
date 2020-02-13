@@ -136,7 +136,6 @@ function copyContent() {
         }
         document.body.removeChild(text);
     }
-
 			function btns(){
 
 				
