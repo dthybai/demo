@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html style="font-size: 20px;">
+<html style="font-size: 25px;">
 	<head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no"/>
@@ -14,8 +14,14 @@
 	<script src="jquery.min.js"></script>
 	<script src="layer.js"></script>
 	<script src="index.js"></script>
+	
 	<style>
-	@media only screen and (min-width: 481px) {
+		 html {
+		 	background: #ffffff;
+            font-size: 125%; /* 20梅16=125% min-font-size:12px bug*/
+        }
+       
+		@media only screen and (min-width: 481px) {
             html {
                 font-size: 188%!important; /* 30.08梅16=188% */
             }
@@ -150,16 +156,10 @@
 					.log_window h4{line-height: 1.6rem; margin-top: 0.4rem; color: #000000;font-weight: bolder;font-size: 0.6rem;}
 					.log_window p{line-height: 1rem;color: #000000;font-weight: bolder; font-size: 0.56rem;}
 					.log_window li{margin-top: 10px;color: #818D9F; font-size: 0.4rem;}
-					.log_window h6{position: absolute;
-					    bottom: 30px;
-					    left: 45%;
-					    text-decoration: underline;
-					    color: #5dc0df;
-					    text-align: center;
-					    padding: 0; }
+					.log_window h6{position: absolute; bottom: 10px; left: 35%; text-decoration:underline;color: #5dc0df; text-align: center; line-height: 3rem; padding: 0; }
 					.log_window {
-					    width:55%;
-					    height:35%;
+					    width:75%;
+					    height:40%;
 					    background-color:#ffffff;    
 					    margin: auto;
 					    position: absolute;
@@ -342,7 +342,7 @@
 	  	</div>
 	 </div>
 	 <div class="message">
-	 	<p>按支付金额支付成功可享5‰返点</p>
+	 	<p>按支付金额支付成功可享5‰返点</p><br />
 	 	<p>如提示风险请使用银行卡转账100%成功,支付成功后充值金额及返点会自动到账</p>
 	 </div>
 	 
